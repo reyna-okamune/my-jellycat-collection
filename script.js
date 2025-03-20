@@ -73,7 +73,7 @@ const generateValues = (arr = jellycatCollection) => {
     });
 }
 
-// render cards for the all collection (when page is loaded)
+// render cards for the all collection (when page is loaded) & generate values
 generateValues();
 setCards();
 
@@ -99,3 +99,5 @@ optionsDropdown.addEventListener("change", (e) => {
 
     }
 })
+
+
